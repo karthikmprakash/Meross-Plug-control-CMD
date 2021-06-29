@@ -5,8 +5,8 @@ import os
 from meross_iot.http_api import MerossHttpClient
 from meross_iot.manager import MerossManager
 
-EMAIL = os.environ.get('mkarthikprakash919@gmail.com') or "mkarthikprakash919@gmail.com"
-PASSWORD = os.environ.get('Signmein') or "Signmein"
+EMAIL = os.environ.get('your_email_here') or "your_email_here"
+PASSWORD = os.environ.get('password_here') or "password_here"
 
 
 async def main():
